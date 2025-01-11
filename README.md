@@ -1,4 +1,4 @@
-# Smart_light_control_project_STM32
+# SMART_LIGHT_CONTRL_SYSTEM_STM32
 Design a smart light control system that automatically adjusts LED brightness based on ambient light levels.The system will display real-time ambient light intensity and LED brightness level on an I2C-based HD44780 LCD
 
 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰:
