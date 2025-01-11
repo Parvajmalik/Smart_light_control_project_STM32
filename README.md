@@ -1,7 +1,7 @@
 # Smart_light_control_project_STM32
 Design a smart light control system that automatically adjusts LED brightness based on ambient light levels.The system will display real-time ambient light intensity and LED brightness level on an I2C-based HD44780 LCD
 
-Project Overview:
+𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰:
  
 1. Ambient Light Detection: Use an LDR connected to an ADC pin on the STM32F407 to measure ambient light levels. Based on the LDR reading, the system will adjust the brightness of an LED (connected via PWM).
 2. User Interface: The HD44780 LCD, interfaced via I2C, will display the current ambient light level and LED brightness percentage.
@@ -9,7 +9,7 @@ Project Overview:
 4. Threshold Control: Set thresholds for different brightness levels, so the LED adjusts smoothly as ambient light changes.
 5. Manual Override: Add buttons for manual LED control, allowing the user to turn on or off the LED irrespective of ambient light conditions.
 
-Components and Peripherals:
+𝐂𝐨𝐦𝐩𝐨𝐧𝐞𝐧𝐭𝐬 𝐚𝐧𝐝 𝐏𝐞𝐫𝐢𝐩𝐡𝐞𝐫𝐚𝐥𝐬:
  
 • STM32F407 Discovery Board (main controller)
 • LDR (connected to ADC input pin)
@@ -17,7 +17,7 @@ Components and Peripherals:
 • HD44780 LCD (connected via I2C)
 • Two Button (for manual override ON/OFF, connected to GPIO pin)
 
-Project Implementation Steps:
+𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐒𝐭𝐞𝐩𝐬:
  
 1. Ambient Light Sensing:
      • Set up the LDR as a voltage divider and connect it to an ADC pin.
